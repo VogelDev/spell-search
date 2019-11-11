@@ -1,5 +1,8 @@
 # spell-search
 
+## Notice
+This is a super sloppy, learn as I went, state. I will eventually clean up code and fix bugs, but for now, it's pushable.
+
 ## Project setup
 ```
 npm install

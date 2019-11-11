@@ -11,3 +11,24 @@ declare global {
     }
   }
 }
+interface Spell {
+  range?: string;
+  text: string;
+  school?: string;
+  time?: string;
+  name: string;
+  components?: string;
+  classes: string[];
+  duration?: string;
+  roll?: string[] | string;
+}
+export class Character {
+  index: number;  
+  name: string;
+  classes: Class[];
+  spellbook: Spell[];
+}
+interface Class {
+  name: string;
+  level: string;
+}
