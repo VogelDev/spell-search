@@ -50,6 +50,7 @@ const router = new VueRouter({
       component: Character,
     }
   ],
+  base: 'spell-search/dist',
   mode: 'history'
 })
 
