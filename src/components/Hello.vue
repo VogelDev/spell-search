@@ -14,7 +14,7 @@
         <v-col cols="6" md="4">
           <ul>
             <li v-for="spell in $store.getters.spellbook" :key="spell.objectID">
-              <a :href="`/spell/${spell.objectID}`">{{spell.name}}</a>
+              <a :to="`/spell/${spell.objectID}`">{{spell.name}}</a>
             </li>
           </ul>
         </v-col>
