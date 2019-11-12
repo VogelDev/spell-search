@@ -9,6 +9,8 @@ This is a super sloppy, learn as I went, state. I will eventually clean up code 
 1. allow the user to delete characters
 1. make the UX more apparent
     1. user must create a character and then click its name to "activate" that character before they can add spells from the spell book
+1. fix routing in github pages to allow deep linking to work
+1. css overhaul
 
 ## Project setup
 ```
