@@ -14,7 +14,9 @@
         <v-col cols="6" md="4">
           <ul>
             <li v-for="spell in $store.getters.spellbook" :key="spell.objectID">
-              <a :to="`/spell/${spell.objectID}`">{{spell.name}}</a>
+                <router-link :to="{name: 'spell', params: {id: spell.objectID}}">
+                    {{spell.name}}
+                </router-link>
             </li>
           </ul>
         </v-col>
