@@ -30,27 +30,27 @@ const router = new VueRouter({
     //route for the about route of the web page
     { 
       name: 'spellfinder',
-      path: 'dist/spellfinder', 
+      path: '/spellfinder', 
       component: SpellFinder,
       props: route => ({ query: route.query.q, classes: route.query.classes }),
     },
     { 
       name: 'spell',
-      path: 'dist/spell/:id', 
+      path: '/spell/:id', 
       component: Spell,
     },
     { 
       name: 'character',
-      path: 'dist/character/:id', 
+      path: '/character/:id', 
       component: Character,
     },
     { 
       name: 'character',
-      path: 'dist/character', 
+      path: '/character', 
       component: Character,
     }
   ],
-  base: 'spell-search/dist',
+  base: '/spell-search/',
   mode: 'history'
 })
 
