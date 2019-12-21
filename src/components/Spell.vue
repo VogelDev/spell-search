@@ -30,8 +30,8 @@ export default {
   data() {
     return {
       searchClient: algoliasearch(
-        "AXJTQE63QK",
-        "44f8861a984d1d4ec6acc79a66736566"
+        "GZCCNOE2M5",
+        "542f1f216361f603770ceecd954ca5cd"
       ),
       index: {},
       prepared: false,
